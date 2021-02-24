@@ -1,0 +1,44 @@
+.invBody {
+  margin: 50px;
+}
+.title {
+  border-left: solid 5px #778899;
+  padding-left: 15px;
+  overflow: hidden;
+  color: #778899;
+}
+.title:after {
+  background-color: #778899;
+  content: "";
+  display: inline-block;
+  height: 1px;
+  position: relative;
+  vertical-align: middle;
+  width: 100%;
+}
+
+.title:after {
+  left: 0.5em;
+  margin-right: -50%;
+}
+
+.actionsBlock {
+  background-color: white;
+  border: 1px solid #d3d3d3;
+  border-radius: 2px;
+  padding: 25px;
+  margin-bottom: 50px;
+}
+.actionsBlock h2 {
+  margin: 0;
+  margin-bottom: 20px;
+}
+.button {
+  background-color: #4169e1;
+  padding: 10px 30px;
+  font-size: 17px;
+  font-weight: 500;
+  color: white;
+  border-radius: 5px;
+  border: none;
+}

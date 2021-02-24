@@ -1,0 +1,85 @@
+.addBody {
+  margin: 50px;
+}
+
+.title {
+  border-left: solid 5px #778899;
+  padding-left: 15px;
+  overflow: hidden;
+  color: #778899;
+}
+.title:after {
+  background-color: #778899;
+  content: "";
+  display: inline-block;
+  height: 1px;
+  position: relative;
+  vertical-align: middle;
+  width: 100%;
+}
+
+.title:after {
+  left: 0.5em;
+  margin-right: -50%;
+}
+
+.formRound {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row-reverse;
+  background-color: white;
+  border: 1px solid #d3d3d3;
+  border-radius: 2px;
+  padding: 25px;
+}
+
+.form {
+  width: 100%;
+  background-color: white;
+  border: 1px solid #d3d3d3;
+  border-radius: 2px;
+  padding: 25px;
+  margin-bottom: 50px;
+}
+
+.inputList {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.button {
+  background-color: #4169e1;
+  padding: 10px 30px;
+  font-size: 17px;
+  font-weight: 500;
+  color: white;
+  border-radius: 5px;
+  border: none;
+}
+
+.input {
+  border: 1px solid #d3d3d3;
+  width: 95%;
+  margin-top: 15px;
+  border-radius: 5px;
+  height: 35px;
+}
+
+.inputForm {
+  display: grid;
+  width: 50%;
+  margin-bottom: 50px;
+}
+
+.textarea {
+  border: 1px solid #d3d3d3;
+  width: 98%;
+  margin-top: 15px;
+  border-radius: 5px;
+  height: 100px;
+}
+
+.textareaForm {
+  display: grid;
+  margin-bottom: 50px;
+}
